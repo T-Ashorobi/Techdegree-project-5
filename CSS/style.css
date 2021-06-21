@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: #DED6D6;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 .sBar {
   max-width: 600px;
   margin: 20px auto;
-  padding: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
 } 
 
@@ -32,4 +32,8 @@ input {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 15px;
+}
+
+a {
+  margin: 0 auto;
 }
