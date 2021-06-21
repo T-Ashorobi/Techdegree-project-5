@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  padding: 3%;
+}
+
+.sBar {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 1rem;
+  width: 100%;
+} 
+
+input {
+  height: 50px;
+  width: 100%;
+}
+
+.pGrid {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
